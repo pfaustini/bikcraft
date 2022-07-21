@@ -29,3 +29,8 @@ img {
   max-width: 100%;
   display: block;
 }
+
+/* Toda img que terminar em .jpg pra n aplicar border nos svg */
+img[src$=".jpg"] {
+  border-radius: 5px;
+}
