@@ -1,0 +1,63 @@
+.parceiros {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.parceiros h2 {
+  margin-bottom: 60px;
+}
+
+.parceiros ul {
+  padding: 0 20px;
+  display: grid;
+  /* poderia ser escrito como repeat(4, 1fr) */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parceiros li {
+  padding: 32px;
+  /* para alinhar os itens com margin auto */
+  display: flex;
+  /* criar detalhes de separacao dos itens */
+  border-left: 2px solid var(--cor-2);
+}
+
+/* para alinhar os itens com margin auto */
+.parceiros li img {
+  margin: auto;
+}
+
+/* tirar a borda left do item 1 e 5 */
+.parceiros li:first-child,
+.parceiros li:nth-child(5) {
+  border-left: none;
+}
+
+/* add border top a partir do item 5 */
+.parceiros li:nth-child(n + 5) {
+  border-top: 2px solid var(--cor-2);
+}
+
+@media (max-width: 800px) {
+  .parceiros {
+    padding-bottom: 60px;
+  }
+  .parceiros h2 {
+    margin-bottom: 20px;
+  }
+  .parceiros ul {
+    grid-template-columns: 1fr 1fr;
+  }
+  .parceiros li {
+    padding: 20px;
+  }
+  .parceiros li:nth-child(odd) {
+    border-left: none;
+  }
+  .parceiros li:nth-child(n + 3) {
+    border-top: 2px solid var(--cor-2);
+  }
+}
