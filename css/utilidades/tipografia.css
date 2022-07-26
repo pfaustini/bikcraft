@@ -30,6 +30,18 @@
   font: 600 0.75rem/1.33 "Poppins", sans-serif;
 }
 
+.font-1-xs-b {
+  font: 600 0.75rem/1.33 "Poppins", sans-serif;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+.font-2-xl {
+  font: 500 2rem/1.25 "Roboto", sans-serif;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
 .font-2-l {
   font: 400 1.5rem/1.5 "Roboto", sans-serif;
 }
