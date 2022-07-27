@@ -21,6 +21,9 @@
   font-weight: 600;
   /* pro botao n ficar se expandindo dentro do grid */
   max-width: max-content;
+  /* padronizar botao do formulario */
+  border: none;
+  cursor: pointer;
 }
 
 .botao.seta {
