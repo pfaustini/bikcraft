@@ -10,7 +10,7 @@
   margin-bottom: 4px;
 }
 
-/* classe pra expandir email e mensagem */
+/* classe pra expandir o elemento em uma linha de grid inteira */
 .form .col-2 {
   grid-column: span 2;
 }

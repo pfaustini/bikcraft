@@ -16,8 +16,8 @@
 .depoimento-conteudo {
   align-self: end;
   padding: 40px 40px 80px 80px;
-  background: url(../../img/decorador/bottom-rigth-p.svg) no-repeat bottom 40px
-    right 40px;
+  background: url("../../img/decorador/bottom-rigth-p.svg") no-repeat bottom
+    40px right 40px;
 }
 
 .depoimento-conteudo p {

@@ -95,6 +95,11 @@
   padding-bottom: 60px;
 }
 
+.titulo {
+  background: url("../../img/decorador/top-rigth.svg") no-repeat top 0 right
+    40px;
+}
+
 .titulo p {
   margin-bottom: 8px;
 }

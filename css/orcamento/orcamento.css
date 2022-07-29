@@ -32,13 +32,15 @@
 }
 
 .orcamento-dados {
-  background: var(--cor-0);
+  background: var(--cor-0) url("../../img/decorador/bottom-rigth.svg") no-repeat
+    bottom 20px right 20px;
   border-radius: 0 5px 5px 0;
 }
 
 /* estilizar as escolhas de produto */
 .orcamento-produto {
-  background: var(--cor-12);
+  background: var(--cor-12) url("../../img/decorador/bottom-left.svg") no-repeat
+    bottom 20px left 20px;
   border-radius: 5px 0 0 5px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -178,6 +180,7 @@
   }
   .orcamento-produto {
     border-radius: 5px 5px 0 0;
+    background: var(--cor-12);
   }
 }
 
