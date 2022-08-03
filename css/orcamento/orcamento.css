@@ -197,4 +197,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 8px 12px;
   }
+  .orcamento-dados {
+    background: var(--cor-0);
+  }
 }
