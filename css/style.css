@@ -12,7 +12,6 @@
 
 /* Home */
 @import "./home/introducao.css";
-@import "./bicicletas/bicicletas-lista.css";
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
@@ -30,7 +29,7 @@
 @import "./termos/termos.css";
 
 /* Bicicleta */
-@import "./bicicleta/nimbus.css";
+@import "./bicicleta/bicicleta-interna.css";
 @import "./bicicleta/seguro.css";
 
 /* Contato */
