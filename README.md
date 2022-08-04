@@ -1,2 +1,2 @@
 # bikcraft
-https://github.com/pfaustini/bikcraft
+https://pfaustini.github.io/bikcraft
